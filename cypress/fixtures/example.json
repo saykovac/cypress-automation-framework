@@ -1,0 +1,8 @@
+{
+  "name": "Using fixtures to represent data",
+  "email": "toto@schillaci.it",
+  "body": "Fixtures are a great way to mock data for responses to routes",
+  "first_name": "Totò",
+  "last_name": "Schillaci",
+  "totoStory": "Real Totò's name is Salvatore. So, full name is Salvatore Totò Schillaci."
+}
