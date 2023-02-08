@@ -5,7 +5,7 @@ import AutoStore_Homepage_Po from "../../support/pageObjects/automation-test-sto
 /// <reference types="cypress-xpath" />
 
 
-describe('Add multiple items to basket', () => {
+describe('Add multiple items to the basket', () => {
 
     const autoStore_Homepage_PO = new AutoStore_Homepage_Po()
     const autoStore_HairCare_PO = new AutoStore_HairCare_Po()
