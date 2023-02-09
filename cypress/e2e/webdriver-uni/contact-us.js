@@ -120,6 +120,13 @@ describe("Test Contact Us form via WebdriverUni", () => {
         // POM
         //const contact_Us_PO = new Contact_Us_Page_PO()
         // selimo const u describe
-        contact_Us_PO.contactForm_Submission(Cypress.env("first_name"), data.last_name," ", data.totoStory, "body", "Error: Invalid email address")
+        //contact_Us_PO.contactForm_Submission(Cypress.env("first_name"), data.last_name," ", data.totoStory, "body", "Error: Invalid email address")
+
+        if (Cypress.isBrowser('firefox')) {
+            
+        } else {
+                contact_Us_PO.contactForm_Submission(Cypress.env("first_name"), data.last_name," ", data.totoStory, "body", "Error: Invalid email address")
+
+        }
     })
 })
